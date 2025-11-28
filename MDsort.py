@@ -1,4 +1,4 @@
-import random
+#import random
 
 def mysort(a):
     arrys=[a]
@@ -42,9 +42,6 @@ def mysort(a):
 
     
 
-for i in range(100):
+'''for i in range(100):
     arry=[random.randint(1,10) for _ in range(10)]
-    print(sorted(arry)==mysort(arry))
-arry=[random.randint(1,10) for _ in range(10)]
-print(mysort(arry))
-
+    print(sorted(arry)==mysort(arry))'''
